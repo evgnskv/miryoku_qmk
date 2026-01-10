@@ -31,9 +31,9 @@ KC_RGUI,           KC_RALT,           TD(U_TD_U_SYM),    TD(U_TD_U_MOUSE),  U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,             KC_BTN1,         KC_BTN2,          KC_BTN3,          U_NP,           U_NP
 
 #define MIRYOKU_LAYER_MEDIA \
-TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   TD(U_TD_U_AA),    KC_F18,          KC_F19,           KC_F20,           KC_F21,         KC_F22,            \
-KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           TD(U_TD_U_CA),    KC_MPRV,         KC_VOLD,          KC_VOLU,          KC_MNXT,        U_NU,              \
-KC_RGUI,           KC_RALT,           TD(U_TD_U_FUN),    TD(U_TD_U_MEDIA),  TD(U_TD_U_DA),    U_NU,            U_NU,             U_NU,             U_NU,           OU_AUTO,           \
+TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   TO(U_TD_U_AA),    KC_F18,          KC_F19,           KC_F20,           KC_F21,         KC_F22,            \
+KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           TO(U_TD_U_CA),    KC_MPRV,         KC_VOLD,          KC_VOLU,          KC_MNXT,        U_NU,              \
+KC_RGUI,           KC_RALT,           TD(U_TD_U_FUN),    TD(U_TD_U_MEDIA),  TO(U_TD_U_DA),    U_NU,            U_NU,             U_NU,             U_NU,           OU_AUTO,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,             KC_MSTP,         KC_MPLY,          KC_MUTE,          U_NP,           U_NP
 
 #define MIRYOKU_LAYER_AA \
@@ -46,7 +46,7 @@ U_NP,             U_NP,               KC_LALT,           KC_SPACE,          MO(U
 KC_ESC,           KC_4,               KC_5,              KC_6,              KC_T,             KC_F15,          KC_F7,            KC_F8,            KC_F9,          KC_F12,          \
 KC_V,             KC_Z,               KC_W,              KC_X,              KC_G,             KC_F14,          KC_F4,            KC_F5,            KC_F6,          KC_F11,          \
 KC_C,             KC_A,               KC_S,              KC_D,              KC_H,             KC_F13,          KC_F1,            KC_F2,            KC_F3,          KC_F10,          \
-U_NP,             U_NP,               KC_N,              KC_M,              U_NA,             TD(U_TD_U_BASE), KC_BSPC,          KC_DEL,           U_NP,           U_NP
+U_NP,             U_NP,               KC_N,              KC_M,              U_NA,             TO(U_TD_U_BASE), KC_BSPC,          KC_DEL,           U_NP,           U_NP
 
 #define MIRYOKU_LAYER_CA \
 KC_TAB,           KC_1,               KC_2,              KC_3,              KC_R,             KC_Y,            KC_U,             KC_I,             KC_O,           KC_P,            \
@@ -58,7 +58,7 @@ U_NP,             U_NP,               KC_LALT,           KC_SPACE,          MO(U
 KC_ESC,           KC_4,               KC_5,              KC_6,              KC_T,             KC_F15,          KC_F7,            KC_F8,            KC_F9,          KC_F12,          \
 KC_LSFT,          KC_Z,               KC_W,              KC_X,              KC_C,             KC_F14,          KC_F4,            KC_F5,            KC_F6,          KC_F11,          \
 KC_LCTL,          KC_A,               KC_S,              KC_D,              KC_B,             KC_F13,          KC_F1,            KC_F2,            KC_F3,          KC_F10,          \
-U_NP,             U_NP,               KC_LALT,           KC_SPACE,          U_NA,             TD(U_TD_U_BASE), KC_BSPC,          KC_DEL,           U_NP,           U_NP
+U_NP,             U_NP,               KC_LALT,           KC_SPACE,          U_NA,             TO(U_TD_U_BASE), KC_BSPC,          KC_DEL,           U_NP,           U_NP
 
 #define MIRYOKU_LAYER_DA \
 KC_TAB,           KC_1,               KC_2,              KC_3,              KC_R,             KC_Y,            KC_U,             KC_I,             KC_O,           KC_P,            \
@@ -70,7 +70,7 @@ U_NP,             U_NP,               KC_LALT,           KC_SPACE,          MO(U
 KC_ESC,           KC_4,               KC_5,              KC_6,              KC_T,             KC_F15,          KC_F7,            KC_F8,            KC_F9,          KC_F12,          \
 KC_LSFT,          KC_Q,               KC_D,              KC_F,              KC_G,             KC_F14,          KC_F4,            KC_F5,            KC_F6,          KC_F11,          \
 KC_LALT,          KC_Z,               KC_X,              KC_C,              KC_B,             KC_F13,          KC_F1,            KC_F2,            KC_F3,          KC_F10,          \
-U_NP,             U_NP,               KC_LALT,           KC_SPACE,          U_NA,             TD(U_TD_U_BASE), KC_BSPC,          KC_DEL,           U_NP,           U_NP
+U_NP,             U_NP,               KC_LALT,           KC_SPACE,          U_NA,             TO(U_TD_U_BASE), KC_BSPC,          KC_DEL,           U_NP,           U_NP
 
 #define MIRYOKU_LAYER_LIST   \
 MIRYOKU_X(BASE,   "Base")    \
