@@ -1,0 +1,16 @@
+# Copyright 2021 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build iris custom'
+on:
+  push:
+    branches:
+      - '**'
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      keyboard: '["keebio/iris/rev2"]'
+      alphas: '["QWERTY"]'
+      nav: '["vi"]'
