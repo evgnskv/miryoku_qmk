@@ -6,6 +6,8 @@
 #pragma once
 
 #define USE_I2C
+#define EE_HANDS
+#define MASTER_RIGHT
 #define MIRYOKU_KLUDGE_MOUSEKEYSPR
 #define MIRYOKU_CLIPBOARD_MAC
 
