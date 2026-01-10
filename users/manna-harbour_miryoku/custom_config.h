@@ -7,6 +7,7 @@
 
 #define USE_I2C
 #define EE_HANDS
+#define MASTER_LEFT
 #define MIRYOKU_KLUDGE_MOUSEKEYSPR
 #define MIRYOKU_CLIPBOARD_MAC
 
