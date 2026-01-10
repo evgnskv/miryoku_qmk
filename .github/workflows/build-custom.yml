@@ -14,3 +14,4 @@ jobs:
       keyboard: '["keebio/iris/rev2"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
+      mapping: '["split"]'
