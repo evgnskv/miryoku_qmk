@@ -89,3 +89,21 @@ combo_t key_combos[COMBO_COUNT] = {
   COMBO(thumbcombos_fun, KC_APP)
 };
 #endif
+
+// Disable Auto-Shift for Gaming Layers (Recommended)
+
+bool get_auto_shift_state(void) {
+    uint8_t layer = get_highest_layer(layer_state);
+    switch (layer) {
+        case U_AA:
+        case U_AB:
+        case U_CA:
+        case U_CB:
+        case U_DA:
+        case U_DB:
+            return false;
+        default:
+            return true;
+    }
+}
+

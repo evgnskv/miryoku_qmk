@@ -52,7 +52,7 @@ U_NP,             U_NP,               KC_N,              KC_M,              U_NA
 KC_TAB,           KC_1,               KC_2,              KC_3,              KC_R,             KC_Y,            KC_U,             KC_I,             KC_O,           KC_P,            \
 KC_LSFT,          KC_Q,               KC_W,              KC_E,              KC_F,             KC_H,            KC_J,             KC_K,             KC_L,           KC_SCLN,         \
 KC_LCTL,          KC_A,               KC_S,              KC_D,              KC_G,             KC_N,            KC_M,             KC_COMMA,         KC_DOT,         KC_SLASH,        \
-U_NP,             U_NP,               KC_LALT,           KC_SPACE,          MO(U_TD_U_CB),    KC_RETN,         KC_BSPC,          KC_DEL,           U_NP,           U_NP
+U_NP,             U_NP,               KC_LALT,           KC_SPACE,          MO(U_CB),         KC_RETN,         KC_BSPC,          KC_DEL,           U_NP,           U_NP
 
 #define MIRYOKU_LAYER_CB \
 KC_ESC,           KC_4,               KC_5,              KC_6,              KC_T,             KC_F15,          KC_F7,            KC_F8,            KC_F9,          KC_F12,          \
