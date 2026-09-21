@@ -14,3 +14,5 @@ RGBLIGHT_ENABLE = no        # Enable WS2812 RGB underlight.
 SPLIT_KEYBOARD = yes
 
 LTO_ENABLE = yes
+KEYBOARD_SHARED_EP = yes
+

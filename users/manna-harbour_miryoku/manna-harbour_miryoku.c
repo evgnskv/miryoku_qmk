@@ -109,4 +109,32 @@ layer_state_t layer_state_set_user(layer_state_t state) {
     }
     return state;
 }
+// Add MacOS Globe (Fn) key
 
+#define APPLE_GLOBE_USAGE 0x029D
+
+static uint8_t globe_holds;
+
+static void set_globe(bool pressed) {
+    if (pressed) {
+        if (globe_holds++ == 0) {
+            host_consumer_send(APPLE_GLOBE_USAGE);
+        }
+    } else if (globe_holds > 0 && --globe_holds == 0) {
+        host_consumer_send(0);
+    }
+}
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(0, KC_G):
+        case LT(0, KC_H):
+            if (!record->tap.count) {
+                set_globe(record->event.pressed);
+                return false;
+            }
+            break;
+    }
+
+    return true;
+}
